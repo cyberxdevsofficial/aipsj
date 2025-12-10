@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    color: white;
+    font-family: Arial;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 8px;
+}
+
+button {
+    background: #0099ff;
+    border: none;
+    cursor: pointer;
+}
+
+.nav {
+    background: #111;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.api-box {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+}
